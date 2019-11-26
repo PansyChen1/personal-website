@@ -26,6 +26,12 @@ const config: IConfig =  {
           /components\//,
         ],
       },
+
+      pwa: {
+          manifestOptions: {
+            srcPath: 'manifest.json',
+          },
+        },
     }],
   ],
 }

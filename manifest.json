@@ -1,0 +1,9 @@
+{
+  "name": "Personal-Website",
+  "start_url": ".",
+  "icons": [{
+      "src": "favicon.ico",
+      "sizes": "72x72"
+    }
+  ]
+}
