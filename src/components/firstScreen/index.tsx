@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './index.less';
-// import styles from "./index.less"
 
 const FirstScreen = () => {
   return (
