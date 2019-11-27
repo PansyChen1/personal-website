@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36300128-1dbd-4237-a313-526cc0233dca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/aboutUs/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/aboutUs/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/joinUs/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/joinUs/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/firstScreen/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstScreen/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/firstScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstScreen/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/pageFrame/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pageFrame/index.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="personal-website" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +73,8 @@
       <workItem from="1574756676337" duration="1918000" />
       <workItem from="1574758867498" duration="73000" />
       <workItem from="1574758946581" duration="4107000" />
-      <workItem from="1574763869619" duration="8578000" />
+      <workItem from="1574763869619" duration="9841000" />
+      <workItem from="1574852654280" duration="4390000" />
     </task>
     <servers />
   </component>
