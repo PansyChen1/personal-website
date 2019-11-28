@@ -1,22 +1,46 @@
 import React, { useState } from 'react';
-import './index.less';
+import styles from './index.less';
 import logo from '../../assets/logo.png';
-import {Menu, Icon} from 'antd';
-import Redirect from 'umi/redirect';
+import download from '../../assets/download.png';
 import Link from 'umi/link';
 
 const FirstScreen = (props: any) => {
 
+  const navConfig = [
+    "/pageFrame",
+    "/aboutUs",
+    "/joinUs"
+  ];
+  const navItem = [
+    "Home",
+    "About Us",
+    "Join Us"
+  ];
+
   return (
-    <div className='firstScreen'>
-      <img src={logo} alt='logo' className='logo'/>
-      <Menu
-        mode="horizontal"
-      >
-        <Menu.Item key="page"><Link to={"/pageFrame"}>Home</Link></Menu.Item>
-        <Menu.Item key="about"><Link to={"/aboutUs"}>About Us</Link></Menu.Item>
-        <Menu.Item key="join"><Link to={"/joinUs"}>Join Us</Link></Menu.Item>
-      </Menu>
+    <div className={styles["firstScreen"]}>
+      <div className='logo'><img src={logo} alt='logo'/></div>
+
+      <ul className='nav'>
+        <li><Link to={"/home"}>
+          {
+            navItem.map(function (item) {
+              return (<li>{item}</li>)
+            })
+          }
+        </Link></li>
+      </ul>
+
+      <div className={styles['language']}>
+        <i>中文</i>
+        {/*<i>English</i>*/}
+      </div>
+
+      <div className={styles['download']}>
+        <img src={download} alt='download' />
+        <span>Download</span>
+      </div>
+
     </div>
   )
 }

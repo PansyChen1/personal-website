@@ -1,5 +1,6 @@
 import React from "react";
 import FirstScreen from "@/components/firstScreen"
+import SecondScreen from "@/components/secondScreen"
 
 const pageFrame = () => {
 
@@ -16,7 +17,8 @@ const pageFrame = () => {
 
   return (
     <>
-      <FirstScreen/>
+      {/*<FirstScreen/>*/}
+      {/*<SecondScreen/>*/}
     </>
   )
 }
