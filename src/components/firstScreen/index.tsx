@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import styles from './index.less';
+import './index.less';
 import logo from '../../assets/logo.png';
 import download from '../../assets/download.png';
 import Link from 'umi/link';
+import Navigation from "@/components/navigation/navigation"
 
 const FirstScreen = (props: any) => {
 
@@ -11,32 +12,19 @@ const FirstScreen = (props: any) => {
     "/aboutUs",
     "/joinUs"
   ];
-  const navItem = [
-    "Home",
-    "About Us",
-    "Join Us"
-  ];
 
   return (
-    <div className={styles["firstScreen"]}>
+    <div className="firstScreen">
       <div className='logo'><img src={logo} alt='logo'/></div>
 
-      <ul className='nav'>
-        <li><Link to={"/home"}>
-          {
-            navItem.map(function (item) {
-              return (<li>{item}</li>)
-            })
-          }
-        </Link></li>
-      </ul>
+      {/*<Navigation navItem={["Home", "About Us", "Join Us"]}/>*/}
 
-      <div className={styles['language']}>
+      <div className='language'>
         <i>中文</i>
         {/*<i>English</i>*/}
       </div>
 
-      <div className={styles['download']}>
+      <div className='download'>
         <img src={download} alt='download' />
         <span>Download</span>
       </div>

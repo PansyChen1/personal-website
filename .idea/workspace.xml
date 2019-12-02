@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36300128-1dbd-4237-a313-526cc0233dca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/secondScreen/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/secondScreen/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigation/navigation.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/firstScreen/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstScreen/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/firstScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/pageFrame/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pageFrame/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/secondScreen/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/secondScreen/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/secondScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/secondScreen/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -80,7 +96,8 @@
       <workItem from="1574852654280" duration="4687000" />
       <workItem from="1574909026887" duration="1649000" />
       <workItem from="1574910826823" duration="13958000" />
-      <workItem from="1574950959440" duration="1392000" />
+      <workItem from="1574950959440" duration="12369000" />
+      <workItem from="1575254446295" duration="9847000" />
     </task>
     <servers />
   </component>
